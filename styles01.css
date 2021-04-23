@@ -2,8 +2,10 @@
 	top: 0px;
 	left:0px;
 	width: 100%;
-	height: 50px;
+	height: 30px;
+	top:50px;
 	background-color:aqua;
+	position: absolute;
 }
 .Main_page_link{
 	text-decoration: none;
@@ -25,24 +27,60 @@
 }
 .list{
 	top:100px;
+	position: absolute;
+	left:20px;
 }
 body {
 	height: 1500px;
 	margin: 0;
 }
 .drums , .wind_instr,  .guitar_devices {
-	background-color: yellow;
+	background-color: #AFEEEE;
 	width: 230px;
+		font-family: cursive;
+	font-weight: 800;
+	height: 30px;
+	font-size: 22px;
+	border:1px solid lightblue;
 }
 .list_head{
-	background-color: blue;
+	color:black;
+	background-color: #7B68EE;
+	opacity: .3;
 	width:230px;
+	height:35px;
+	display: inline;
+	top:480px;
+	font-weight: 800;
+	font-size: 22px;
+	border:1px solid lightblue;
+	width: 37px;
+	
 }
 .guitars , .dj, .keyboard_instr{
-	background-color: orange;
+	background-color: #AFEEEE;
 	width: 230px;
+	font-family: cursive;
+	font-weight: 800;
+	height: 30px;
+	font-size: 22px;
+	border:1px solid lightblue;
 }
-.t_head{
+.t_head_1{
 	display:inline;
-	padding: 360px 350px;
+	top:370px;
+	left:396px;
+	height: 23px;
+	width: 400px;
+	background-color: #00FF00;
+	position:absolute;
+}
+.t_head_2{
+	display:inline;
+	top:770px;
+	left:396px;
+	height: 23px;
+	width: 400px;
+	background-color: #00FF00;
+	position:absolute;
 }
