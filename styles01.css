@@ -90,7 +90,7 @@ body {
 	background-color: #00FF00;
 	position:absolute;
 }
-.About{
+.About, .OTHER{
 position: absolute;
 width:600px;
 top:10px;
